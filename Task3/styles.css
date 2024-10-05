@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  transition: color 0.5s ease;
+}
+
+/* Hover Effect */
+h1:hover, h2:hover {
+  color: orange;
+}
+
+/* Section Styling */
+.section-item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Animation */
+.section-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer p {
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  animation: fadeIn 2s ease-in;
+}
+
+/* Keyframe Animation for Fade-In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
